@@ -8,7 +8,7 @@ class AutoParticular(Persona):
         self.placa = placa
     
     def __str__(self):
-        return super().__str__()+""+self.marca+" "+self.color+" "+self.placa
+        return super().__str__()+" "+self.marca+" "+self.color+" "+self.placa
     
     
     def subirseAuto(self):
